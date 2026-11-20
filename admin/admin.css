@@ -1,0 +1,30 @@
+/* admin dashboard styles (uses ../css/base.css for colours and buttons) */
+body::before{display:none}
+.login{min-height:100vh;display:grid;place-items:center;padding:20px;background:radial-gradient(circle at 70% 0,#17203f,var(--ink) 60%)}
+.box{width:min(420px,100%);padding:40px 34px;border:1px solid var(--line);background:var(--navy);position:relative}
+.box::before{content:"";position:absolute;inset:7px;border:1px solid var(--line-soft);pointer-events:none}
+.box h1{font-size:40px;margin:14px 0 8px}
+.box p.muted{margin-bottom:26px;font-size:15px}
+.box .btn{width:100%}
+.msg{margin-top:14px;color:#f08a7e;min-height:1.4em;font-size:14px}
+.app{width:min(1280px,94vw);margin:0 auto;padding:34px 0 60px}
+.bar{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;margin-bottom:30px}
+.bar h1{font-size:46px;margin-top:8px}
+.acts{display:flex;gap:10px;flex-wrap:wrap}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:28px}
+.cards div{padding:20px;border:1px solid var(--line);background:var(--navy)}
+.cards b{display:block;font:500 42px/1 var(--display);color:var(--gold-hi)}
+.cards small{display:block;margin-top:8px;font:400 11px/1.4 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.filters{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.filters input,.filters select{background:var(--navy);color:var(--ivory);border:1px solid var(--line);padding:12px 14px;font:inherit;min-width:180px}
+.filters select option{background:var(--navy)}
+.tw{overflow-x:auto;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:900px}
+th,td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line-soft);font-size:14.5px;vertical-align:top}
+th{position:sticky;top:0;background:var(--navy);font:400 11px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+tr:hover td{background:rgba(201,164,92,.05)}
+td a{color:var(--gold-hi);margin-right:10px;text-decoration:underline;text-underline-offset:3px}
+td.m{max-width:280px;color:var(--muted)}
+.note{margin-top:16px;font-size:13px}
+code{background:var(--navy);padding:2px 6px;border:1px solid var(--line-soft)}
+[hidden]{display:none!important}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Leads | Virasat Real Estate</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div class="login" id="login">
+  <form id="lf" class="box">
+    <span class="eyebrow">Virasat Real Estate</span>
+    <h1>Leads dashboard</h1>
+    <p class="muted">Enter the password you set in the Google Apps Script.</p>
+    <div class="fld"><label for="pw">Password</label><input id="pw" type="password" autocomplete="current-password" required></div>
+    <button class="btn" type="submit">Open dashboard</button>
+    <p class="msg" id="lmsg" role="status"></p>
+  </form>
+</div>
+
+<div class="app" id="app" hidden>
+  <header class="bar">
+    <div><span class="eyebrow">Virasat Real Estate</span><h1>Leads</h1></div>
+    <div class="acts">
+      <button class="btn ghost sm" id="rf" type="button">Refresh</button>
+      <button class="btn sm" id="csv" type="button">Download CSV</button>
+      <button class="btn ghost sm" id="out" type="button">Log out</button>
+    </div>
+  </header>
+  <section class="cards" id="cards"></section>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Search name or phone">
+    <select id="fc"><option value="">All colonies</option></select>
+    <select id="fd"><option value="">All time</option><option value="1">Today</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option></select>
+    <span id="count" class="muted"></span>
+  </div>
+  <div class="tw"><table id="tb"></table></div>
+  <p class="muted note">Auto-refreshes every minute. If leads are not showing, check <code>sheetUrl</code> in <code>js/config.js</code>.</p>
+</div>
+<script src="../js/config.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
