@@ -19,7 +19,7 @@
       "pop.img":"Your legacy begins here","pop.img2":"Premium plots in Indore's Super Corridor",
       "ft.about":"Virasat means legacy. As a real estate and development partner, we help families, investors and brokers find premium plotted colonies in Indore, with honest guidance at every step.",
       "ft.col":"Colonies","ft.links":"Quick links","ft.contact":"Contact",
-      "ft.disc":"All images are artist impressions. Specifications, sizes and layouts are tentative and subject to change as decided by the architects or promoters. This website is not a legal offering. Colonies are developed by Drushika Real Estate and marketed by Virasat Real Estate & Developer's.",
+      "ft.disc":"All images are artist impressions. Specifications, sizes and layouts are tentative and subject to change as decided by the architects or promoters. This website is not a legal offering. Colonies are developed by Drushika Real Estate and marketed by Virasat Real Estate & Developer.",
       "ft.rights":"All rights reserved.","ft.dev":"Developed by Drushika Real Estate",
       "map.hint":"Drag to move, scroll or pinch to zoom","map.fs":"Full screen","map.reset":"Reset","map.zi":"Zoom in","map.zo":"Zoom out","map.dl":"Download map",
       "loc.open":"Open in Google Maps","nb.near":"Nearby","pn.prev":"Previous colony","pn.next":"Next colony",

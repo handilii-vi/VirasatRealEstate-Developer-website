@@ -2,7 +2,7 @@
    config.js  |  EDIT THIS FILE for contact details & leads
    ========================================================== */
 window.VIRASAT = {
-  brand:    "Virasat Real Estate & Developer's",
+  brand:    "Virasat Real Estate & Developer",
   phone:    "+91 84358 23835",
   phoneRaw: "918435823835",          // for WhatsApp / tel links (no + or spaces)
   email:    "sales@virasatrealestate.com",
