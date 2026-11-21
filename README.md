@@ -1,4 +1,4 @@
-# Virasat Real Estate & Developer: website project
+# Virasat Real Estate & Developer's: website project
 
 Pure HTML + CSS + JavaScript. No build step, no framework. Upload the whole folder to your hosting and it works.
 

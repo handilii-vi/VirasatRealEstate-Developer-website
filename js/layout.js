@@ -79,8 +79,8 @@
   var EMBLEM = '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 2l17 18-17 18L3 20z"/><path d="M11.5 14.5L20 29l8.5-14.5M15.5 14.5H24.5"/></svg>';
 
   function brand(){
-    return '<a class="brand" href="index.html" aria-label="Virasat Real Estate &amp; Developer, home">'+EMBLEM+
-           '<span class="brand-t"><b>Virasat</b><small>Real Estate &amp; Developer</small></span></a>';
+    return '<a class="brand" href="index.html" aria-label="Virasat Real Estate &amp; Developer's, home">'+EMBLEM+
+           '<span class="brand-t"><b>Virasat</b><small>Real Estate &amp; Developer's</small></span></a>';
   }
 
   /* ---------- header + mobile menu ---------- */
@@ -129,7 +129,7 @@
     document.body.insertBefore(mm, hdr.nextSibling);
   }
   function wa(msg){
-    return "https://wa.me/"+C.phoneRaw+"?text="+encodeURIComponent(msg || "Hello Virasat Real Estate & Developer, I would like to know more about your colonies.");
+    return "https://wa.me/"+C.phoneRaw+"?text="+encodeURIComponent(msg || "Hello Virasat Real Estate & Developer's, I would like to know more about your colonies.");
   }
   window.VWa = wa;
 
@@ -180,7 +180,7 @@
         '<button class="pop-x" type="button" id="pop-x" data-i18n-label="close" aria-label="Close">'+ic("x")+'</button>'+
         '<div class="pop-img"><img src="images/premium/hero.jpg" alt="" loading="lazy"><div><span data-i18n="pop.img"></span><small data-i18n="pop.img2"></small></div></div>'+
         '<form class="pop-form" data-lead-form data-source="popup" data-colony="Website popup" novalidate>'+
-          '<span class="eyebrow">Virasat Real Estate &amp; Developer</span>'+
+          '<span class="eyebrow">Virasat Real Estate &amp; Developer's</span>'+
           '<h2 id="pop-t" data-i18n="pop.title"></h2>'+
           '<p data-i18n="pop.desc"></p>'+
           '<input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">'+
